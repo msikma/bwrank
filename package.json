@@ -1,0 +1,30 @@
+{
+  "name": "bwrank",
+  "version": "0.1.0",
+  "description": "Returns information about a Brood War player's ladder rank",
+  "main": "index.js",
+  "private": true,
+  "type": "module",
+  "files": [
+    "lib/",
+    "package.json",
+    "license.md",
+    "readme.md"
+  ],
+  "keywords": [
+    "StarCraft"
+  ],
+  "homepage": "https://github.com/msikma/bwrank",
+  "repository": "https://github.com/msikma/bwrank",
+  "author": "Michiel Sikma <michiel@sikma.org>",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bw-web-api": "^2.0.0",
+    "gravatic-booster": "^1.2.3",
+    "lodash.orderby": "^4.6.0",
+    "lodash.pick": "^4.4.0"
+  }
+}
