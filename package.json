@@ -1,6 +1,6 @@
 {
   "name": "@dada78641/bwrank",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Fetches a StarCraft player's ladder rank from the BW internal API",
   "main": "index.js",
   "type": "module",
