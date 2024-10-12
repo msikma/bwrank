@@ -14,6 +14,9 @@
   "keywords": [
     "StarCraft"
   ],
+  "bin": {
+    "bwrank.js": "./bin/bwrank.js"
+  },
   "publishConfig": {
     "access": "public"
   },
@@ -25,8 +28,9 @@
   },
   "license": "MIT",
   "dependencies": {
-    "bw-web-api": "^2.0.0",
-    "gravatic-booster": "^1.2.3",
+    "argparse": "^2.0.1",
+    "bw-web-api": "^3.0.2",
+    "gravatic-booster": "^3.1.0",
     "lodash.orderby": "^4.6.0",
     "lodash.pick": "^4.4.0"
   }
